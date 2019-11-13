@@ -13,7 +13,7 @@ const createStorage = provider => ({
         : JSON.parse(json);
     } catch (err) {
       // eslint-disable-next-line no-console
-      console.log(err);
+      console.error(err);
       return defaultVal;
     }
   },

@@ -63,4 +63,5 @@ typings/
 
 # lib
 lib/
-dist/
+#dist/
+.idea
